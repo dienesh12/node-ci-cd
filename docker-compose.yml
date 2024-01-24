@@ -1,6 +1,6 @@
 version: "3.8"
 services:
   web:
-    build: .
+    image: dineshpathak0112/node-cicd
     ports:
       - "5005:5005"
