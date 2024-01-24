@@ -9,7 +9,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 
 app.get('/', (req, res)  => {
-    res.json({ "success": "ok" })
+    res.json({ "success": "true" })
 })
 
 app.listen(PORT, () => {
