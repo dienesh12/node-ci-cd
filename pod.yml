@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: node-app
+spec:
+  containers:
+  - name: node-app
+    image: dineshpathak0112/node-cicd
+    ports:
+    - containerPort: 5005
